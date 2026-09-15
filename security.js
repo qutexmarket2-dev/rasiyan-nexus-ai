@@ -237,7 +237,12 @@ const PASSWORDS = [
   "SRH_AUG30", "HBD_SEP02", "RSA_SEP05", "HSY_SEP08", "SPAI_SEP11",
   "RHYS_SEP14", "BOTL_SEP17", "HBD_SEP20", "SRH_SEP23", "RSA_SEP26",
   "HSY_SEP29", "SPAI_OCT02", "RHYS_OCT05", "BOTL_OCT08", "HBD_OCT11",
-  "SRH_OCT14", "RSA_OCT17", "HSY_OCT20", "SPAI_OCT23", "RHYS_OCT26"
+  "SRH_OCT14", "RSA_OCT17", "HSY_OCT20", "SPAI_OCT23", "RHYS_OCT26",
+ "ZTX_OCT29", "GJB_NOV01", "UNV_NOV04", "SHL_NOV07", "PRM_NOV10", 
+"CRY_NOV13", "ENG_NOV16", "OBF_NOV19", "SEC_NOV22", "TOK_NOV25", 
+"CIP_NOV28", "TRP_DEC01", "INS_DEC04", "HOT_DEC07", "BTF_DEC10",
+ "DOM_DEC13", "EXP_DEC16", "BND_DEC19", "PLD_DEC22", "MFT_DEC25", 
+"WRK_DEC28", "FIN_DEC31"
 ];
 
 
@@ -997,9 +1002,9 @@ window.addEventListener("touchend",()=>dragging=false);
     // ১. প্রফেশনাল ডোমেন কনফিগারেশন প্যানেল
     // ==========================================
     const CONFIG = {
-        totalDurationDays: 30,                 
+        totalDurationDays: 90,                 
         expiryDate: "2026-12-30 00:00:00",    
-        telegramUsername: "owner_zihad_sir11" 
+        telegramUsername: "@owner_zihad_sir11" 
     };
 
     const currentDomain = window.location.hostname || "UNKNOWN_DOMAIN.COM";
@@ -1159,7 +1164,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #fff;">1 Month</span>
                             <span class="badge-feature bg-silver">Basic</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳255</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳277</span>
                     </div>
                     
                     <div class="price-row">
@@ -1167,7 +1172,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #fff;">3 Months</span>
                             <span class="badge-feature bg-gold">Pro (-2%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳750</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳810</span>
                     </div>
                     
                     <div class="price-row">
@@ -1175,7 +1180,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #fff;">5 Months</span>
                             <span class="badge-feature bg-gold">Plus (-4%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳1,225</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳1,325</span>
                     </div>
 
                     <div class="price-row">
@@ -1183,7 +1188,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #fff;">6 Months</span>
                             <span class="badge-feature bg-gold">Elite (-5%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳1,450</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳1,550</span>
                     </div>
 
                     <div class="price-row" style="border-color: rgba(0, 242, 254, 0.25); background: rgba(0, 242, 254, 0.02);">
@@ -1191,7 +1196,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #00f2fe;">1 Year</span>
                             <span class="badge-feature bg-vip">VIP (-10%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #00f2fe;">৳2,750</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #00f2fe;">৳2,950</span>
                     </div>
 
                     <div class="price-row" style="border-color: rgba(0, 242, 254, 0.35); background: rgba(0, 242, 254, 0.03);">
@@ -1199,7 +1204,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #00f2fe;">2 Years</span>
                             <span class="badge-feature bg-vip">Ultra (-15%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #00f2fe;">৳5,200</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #00f2fe;">৳5,350</span>
                     </div>
 
                     <div class="price-row" style="border-color: #ffd700; background: rgba(255, 215, 0, 0.03);">
@@ -1207,7 +1212,7 @@ function renderExpiryDashboard() {
                             <span style="font-size: 11px; font-weight: 700; color: #ffd700;">5 Years</span>
                             <span class="badge-feature bg-vip" style="background:#ffd700; color:#000;">Max (-20%)</span>
                         </div>
-                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳10,200</span>
+                        <span style="font-size: 11.5px; font-weight: 800; color: #ffd700;">৳10,600</span>
                     </div>
                 </div>
 
